@@ -1,0 +1,402 @@
+{
+  "notas": {
+    "temporada": "Some items are seasonal. Ask your server.",
+    "facturacion": "Invoices (facturas) issued only on the day of your visit. Tax (IVA) included.",
+    "preparacion_larga": "Marked with a clock on the printed menu: takes a little longer to prepare."
+  },
+  "glosario": [
+    { "termino": "A la diabla (spicy red sauce)", "descripcion": "Sauce made with ketchup and hot sauce." },
+    { "termino": "Al ajillo (garlic & dried chile)", "descripcion": "Garlic and dried chile." },
+    { "termino": "Empapelado (wrapped)", "descripcion": "Tomato, onion, bell pepper, capers, green chile, olives and spices." }
+  ],
+  "guarniciones": [
+    "Rice",
+    "Beans",
+    "Plain lettuce salad",
+    "French fries",
+    "Lettuce salad with mayo",
+    "Steamed vegetables",
+    "Coleslaw with sweet dressing",
+    "Apple salad"
+  ],
+  "categorias": {
+    "camarones-pulpo": { "nombre": "Shrimp & octopus" },
+    "entradas": {
+      "nombre": "Starters",
+      "notas": ["Ask about seasonal items (pen shell, scallop and oyster)."]
+    },
+    "tacos-guarniciones": { "nombre": "Tacos & sides" },
+    "cocteleria": { "nombre": "Seafood cocktails" },
+    "pescados-filetes": { "nombre": "Fish & fillets" },
+    "temporada": {
+      "nombre": "Seasonal",
+      "notas": ["Seasonal items: ask your server what is available today."]
+    },
+    "caldos-zarandeados": { "nombre": "Soups & zarandeados (grilled)" },
+    "pollo-carne": {
+      "nombre": "Chicken & beef",
+      "notas": [
+        "Our burgers come with 100 g of French fries and a lettuce salad with avocado, tomato and onion. Inside: 100 g of mozzarella cheese and 20 g of crispy bacon.",
+        "Salads: for $150, add 150 g of the protein of your choice (tuna, salmon, shrimp or chicken)."
+      ]
+    },
+    "bebidas": {
+      "nombre": "Drinks",
+      "notas": ["Free michelada-style or sauced mug."]
+    },
+    "postres": { "nombre": "Desserts" }
+  },
+  "secciones": {
+    "Tacos y quesadillas": "Tacos & quesadillas",
+    "Guarniciones": "Sides",
+    "Cocteles": "Seafood cocktails",
+    "Consomé de camarón": "Shrimp consommé",
+    "Caldos y sopas": "Broths & soups",
+    "Zarandeados": "Zarandeados (grilled)",
+    "Pollo y carne": "Chicken & beef",
+    "Pastas": "Pasta",
+    "Ensaladas": "Salads",
+    "Hamburguesas": "Burgers",
+    "Cervezas": "Beer",
+    "Aguas frescas": "Aguas frescas",
+    "Refrescos": "Sodas",
+    "Café": "Coffee",
+    "Bebidas preparadas": "Mixed drinks"
+  },
+  "grupos": {
+    "Preparación": "Style",
+    "Salsa": "Sauce",
+    "Aguachile": "Aguachile",
+    "Tipo": "Type",
+    "Cocción": "Cooking",
+    "Estilo": "Style",
+    "Pescado": "Fish",
+    "Camarón": "Shrimp",
+    "Proteína": "Protein",
+    "Agrega proteína (150 g)": "Add protein (150 g)",
+    "Marca": "Brand",
+    "Tarro (gratis)": "Mug (free)",
+    "Sabor": "Flavor",
+    "Refresco": "Soda",
+    "Bebida": "Drink",
+    "Paleta": "Ice pop"
+  },
+  "valores": {
+    "Ajo": "Garlic",
+    "Ajillo": "Ajillo (garlic & dried chile)",
+    "Mantequilla": "Butter",
+    "Diabla": "Diabla (spicy)",
+    "Natural": "Plain",
+    "Naturales": "Plain",
+    "Empanizados": "Breaded",
+    "Empanizado": "Breaded",
+    "Empanizado en dedos": "Breaded fingers",
+    "A la plancha": "Grilled (griddle)",
+    "Plancha": "Grilled (griddle)",
+    "A las brasas": "Charcoal-grilled",
+    "Capeados": "Batter-fried",
+    "Entomatados": "Tomato sauce",
+    "Al tamarindo": "Tamarind",
+    "Habanero": "Habanero",
+    "Al chipotle cremoso": "Creamy chipotle",
+    "Mango con habanero": "Mango habanero",
+    "Loco": "Loco",
+    "Mexicana": "Mexican style",
+    "Verde": "Green",
+    "Rojo": "Red",
+    "Negro": "Black",
+    "Ceviche": "Ceviche",
+    "Salpicón": "Salpicón",
+    "Veracruzano": "Veracruz style",
+    "Empapelado": "Empapelado (wrapped)",
+    "Sol": "Sol",
+    "Encebollado": "With onions",
+    "Salmón": "Salmon",
+    "Pescado": "Fish",
+    "Huachinango": "Red snapper",
+    "Robalo": "Snook",
+    "Frito": "Fried",
+    "Asado": "Roasted",
+    "Con cáscara": "Shell-on",
+    "Sin cáscara": "Peeled",
+    "Camarón": "Shrimp",
+    "Pollo": "Chicken",
+    "Atún": "Tuna",
+    "Sin proteína": "No protein",
+    "Corona": "Corona",
+    "Victoria": "Victoria",
+    "Pacífico": "Pacífico",
+    "Estrella": "Estrella",
+    "Corona Light": "Corona Light",
+    "Indio": "Indio",
+    "Amstel Ultra": "Amstel Ultra",
+    "Heineken": "Heineken",
+    "Heineken 0.0": "Heineken 0.0",
+    "Tecate": "Tecate",
+    "Tecate Light": "Tecate Light",
+    "Tecate Ámbar": "Tecate Ámbar",
+    "Miller": "Miller",
+    "Bohemia Clara": "Bohemia Clara",
+    "Bohemia Oscura": "Bohemia Oscura",
+    "Michelob Ultra": "Michelob Ultra",
+    "XX Lager": "XX Lager",
+    "XX Ámbar": "XX Ámbar",
+    "Michelado": "Michelada-style",
+    "Salseado": "Sauced",
+    "Coco": "Coconut",
+    "Naranja": "Orange",
+    "Limón": "Lime",
+    "Horchata": "Horchata",
+    "Jamaica": "Jamaica (hibiscus)",
+    "Maracuyá": "Passion fruit",
+    "Naranjada": "Orangeade",
+    "Limonada": "Limeade",
+    "Agua de coco": "Coconut water",
+    "Coca-Cola": "Coca-Cola",
+    "Fanta": "Fanta",
+    "Sprite": "Sprite",
+    "Topo Chico": "Topo Chico",
+    "Mineral Peñafiel": "Peñafiel mineral water",
+    "Sidral Mundet": "Sidral Mundet (apple soda)",
+    "Squirt": "Squirt",
+    "Coca-Cola Light": "Coca-Cola Light",
+    "Coca-Cola Sin Azúcar": "Coca-Cola Zero Sugar",
+    "Café de olla": "Café de olla (spiced coffee)",
+    "Agua para café": "Hot water for coffee",
+    "Agua": "Water-based",
+    "Leche": "Milk-based",
+    "Esquimal": "Esquimal (chocolate-coated)"
+  },
+  "items": {
+    "cp-camaron-cascara-250": { "nombre": "Shell-on shrimp (full order)" },
+    "cp-camaron-cascara-150": { "nombre": "Shell-on shrimp (half order)" },
+    "cp-camaron-sin-cascara-250": { "nombre": "Peeled shrimp (full order)" },
+    "cp-camaron-sin-cascara-150": { "nombre": "Peeled shrimp (half order)" },
+    "cp-camaron-tocino-8": {
+      "nombre": "Bacon-wrapped shrimp (full order)",
+      "descripcion": "Stuffed with cheddar cheese (20 g) and wrapped in 60 g of bacon each."
+    },
+    "cp-camaron-tocino-4": {
+      "nombre": "Bacon-wrapped shrimp (half order)",
+      "descripcion": "Stuffed with cheddar cheese (20 g) and wrapped in 60 g of bacon each."
+    },
+    "cp-camarones-hawaianos": {
+      "nombre": "Hawaiian shrimp",
+      "descripcion": "180 g of shrimp, 80 g of ham, 70 g of pineapple and 120 g of melted mozzarella cheese."
+    },
+    "cp-camaron-sin-cascara-9pzas": { "nombre": "Peeled shrimp, fried or grilled (full order)" },
+    "cp-camaron-sin-cascara-5pzas": { "nombre": "Peeled shrimp, fried or grilled (half order)" },
+    "cp-camaron-coco-8": {
+      "nombre": "Coconut shrimp (full order)",
+      "descripcion": "Breaded in sweet shredded coconut."
+    },
+    "cp-camaron-coco-5": {
+      "nombre": "Coconut shrimp (half order)",
+      "descripcion": "Breaded in sweet shredded coconut."
+    },
+    "cp-camaron-cascara-250-salsas": { "nombre": "Shell-on shrimp in sauce (full order)" },
+    "cp-camaron-cascara-150-salsas": { "nombre": "Shell-on shrimp in sauce (half order)" },
+    "cp-camaron-sin-cascara-220-salsas": { "nombre": "Peeled shrimp in sauce (full order)" },
+    "cp-camaron-sin-cascara-150-salsas": { "nombre": "Peeled shrimp in sauce (half order)" },
+    "cp-pulpo-280": { "nombre": "Octopus (full order)" },
+    "cp-pulpo-180": { "nombre": "Octopus (half order)" },
+    "cp-orden-mixta": {
+      "nombre": "Mixed order (shrimp & octopus)",
+      "descripcion": "150 g of shrimp and 180 g of octopus."
+    },
+
+    "en-tostada-camaron-pulpo-mayonesa": { "nombre": "Shrimp & octopus tostada with mayo" },
+    "en-tostada-ceviche-camaron": { "nombre": "Shrimp ceviche tostada" },
+    "en-tostada-aguachile": { "nombre": "Aguachile tostada" },
+    "en-tostada-campechana": { "nombre": "Campechana tostada (shrimp & octopus)" },
+    "en-tostada-ceviche-salpicon": { "nombre": "Ceviche or salpicón tostada" },
+    "en-tostada-camaron": { "nombre": "Shrimp tostada" },
+    "en-tostada-callo-pulpo-camaron-gorro": { "nombre": "Scallop, octopus, shrimp & pen shell tostada" },
+    "en-callo-300": { "nombre": "Scallops (full order)" },
+    "en-callo-150": { "nombre": "Scallops (half order)" },
+    "en-ostiones-150": { "nombre": "Oysters (full order)", "descripcion": "Shucked (out of the shell)." },
+    "en-ostiones-90": { "nombre": "Oysters (half order)", "descripcion": "Shucked (out of the shell)." },
+    "en-ceviche-pescado-300": { "nombre": "Fish ceviche (full order)" },
+    "en-ceviche-pescado-150": { "nombre": "Fish ceviche (half order)" },
+    "en-ceviche-camaron-370": { "nombre": "Shrimp ceviche (full order)" },
+    "en-ceviche-camaron-230": { "nombre": "Shrimp ceviche (half order)" },
+    "en-salpicon-450": { "nombre": "Salpicón (full order)" },
+    "en-salpicon-300": { "nombre": "Salpicón (half order)" },
+    "en-tahitiana-pescado": { "nombre": "Tahitian-style fish (tahitiana)" },
+    "en-molcajete-mariscos": {
+      "nombre": "Molcajete de mariscos (seafood stone bowl)",
+      "descripcion": "Shrimp, pen shell, oyster, octopus and sea snail."
+    },
+    "en-cazuela-mixta-aguachile": {
+      "nombre": "Mixed aguachile cazuela",
+      "descripcion": "Shrimp and fish fillet."
+    },
+    "en-pulpo-camaron-enamorado": {
+      "nombre": "Pulpo y camarón enamorado (octopus & shrimp)",
+      "descripcion": "Shrimp, octopus, tomato, onion, mayo and jalapeño."
+    },
+    "en-ensalada-mariscos-chica": {
+      "nombre": "Seafood salad (small)",
+      "descripcion": "250 g of seafood: shrimp, octopus, sea snail, pen shell, scallop and oyster."
+    },
+    "en-ensalada-mariscos-grande": {
+      "nombre": "Seafood salad (large)",
+      "descripcion": "500 g of seafood: shrimp, octopus, sea snail, pen shell, scallop and oyster."
+    },
+    "en-aguachile-camaron-220": { "nombre": "Shrimp aguachile (full order)" },
+    "en-aguachile-camaron-140": { "nombre": "Shrimp aguachile (half order)" },
+
+    "tg-tacos-dorados-camaron-4": { "nombre": "Crispy shrimp tacos (order)" },
+    "tg-tacos-camaron-empanizado-4": { "nombre": "Breaded shrimp tacos (order)" },
+    "tg-tacos-filete-empanizado-4": { "nombre": "Breaded fish finger tacos (order)" },
+    "tg-taco-camaron-dorado": { "nombre": "Crispy shrimp taco" },
+    "tg-taco-camaron-empanizado": { "nombre": "Breaded shrimp taco" },
+    "tg-taco-filete-empanizado": { "nombre": "Breaded fish taco" },
+    "tg-taco-salpicon": { "nombre": "Salpicón taco" },
+    "tg-taco-frijoles": { "nombre": "Bean taco" },
+    "tg-tacos-frijoles-asadero-4": { "nombre": "Bean & asadero cheese tacos (order)" },
+    "tg-tacos-frijoles-4": { "nombre": "Bean tacos (order)" },
+    "tg-taco-frijoles-asadero": { "nombre": "Bean & asadero cheese taco" },
+    "tg-quesadilla-camaron": { "nombre": "Shrimp quesadilla" },
+    "tg-quesadilla-natural": { "nombre": "Plain quesadilla" },
+    "tg-papas": { "nombre": "French fries" },
+    "tg-frijoles": { "nombre": "Beans" },
+    "tg-arroz-300": { "nombre": "Rice (full order)" },
+    "tg-arroz-150": { "nombre": "Rice (half order)" },
+    "tg-guacamole-250": { "nombre": "Guacamole (full order)" },
+    "tg-guacamole-150": { "nombre": "Guacamole (half order)" },
+    "tg-aguacate-250": { "nombre": "Avocado (full order)" },
+    "tg-aguacate-125": { "nombre": "Avocado (half order)" },
+
+    "co-coctel-camaron-grande": { "nombre": "Large shrimp cocktail" },
+    "co-coctel-camaron-mediano": { "nombre": "Medium shrimp cocktail" },
+    "co-coctel-camaron-chico": { "nombre": "Small shrimp cocktail" },
+    "co-coctel-campechano-grande": { "nombre": "Large campechano cocktail (shrimp & octopus)" },
+    "co-coctel-campechano-mediano": { "nombre": "Medium campechano cocktail (shrimp & octopus)" },
+    "co-coctel-campechano-chico": { "nombre": "Small campechano cocktail (shrimp & octopus)" },
+    "co-coctel-cpc-grande": { "nombre": "Large shrimp, octopus and/or sea snail cocktail" },
+    "co-coctel-cpc-mediano": { "nombre": "Medium shrimp, octopus and/or sea snail cocktail" },
+    "co-coctel-cpc-chico": { "nombre": "Small shrimp, octopus and/or sea snail cocktail" },
+    "co-consome-grande": { "nombre": "Large shrimp consommé", "descripcion": "With 2 shrimp." },
+    "co-consome-mediano": { "nombre": "Medium shrimp consommé", "descripcion": "With 1 shrimp." },
+    "co-consome-chico": { "nombre": "Small shrimp consommé", "descripcion": "With 1 shrimp." },
+
+    "pf-filete-al-gusto-250": { "nombre": "Fish fillet, your way (full order)" },
+    "pf-filete-al-gusto-150": { "nombre": "Fish fillet, your way (half order)" },
+    "pf-filete-estilos-250": { "nombre": "Fish fillet (full order)" },
+    "pf-filete-estilos-150": { "nombre": "Fish fillet (half order)" },
+    "pf-filete-relleno": {
+      "nombre": "Stuffed fish fillet",
+      "descripcion": "200 g of fish fillet, 80 g of shrimp, 70 g of octopus, 100 g of cheddar cheese, 15 g of bell pepper and 10 g of celery, wrapped in 100 g of bacon."
+    },
+    "pf-filete-gratinado": {
+      "nombre": "Fish fillet au gratin (full order)",
+      "descripcion": "200 g of fish fillet and 60 g of mozzarella cheese."
+    },
+    "pf-filete-gratinado-media": {
+      "nombre": "Fish fillet au gratin (half order)",
+      "descripcion": "150 g of fish fillet and 60 g of mozzarella cheese."
+    },
+    "pf-filete-florentino": {
+      "nombre": "Florentine fish fillet (full order)",
+      "descripcion": "200 g of fish fillet, 70 g of shrimp, 70 g of octopus, 10 g of celery and 120 g of mozzarella cheese."
+    },
+    "pf-filete-florentino-media": {
+      "nombre": "Florentine fish fillet (half order)",
+      "descripcion": "150 g of fish fillet, 70 g of shrimp, 70 g of octopus, 10 g of celery and 120 g of mozzarella cheese."
+    },
+    "pf-filete-coco": {
+      "nombre": "Coconut fish fillet (full order)",
+      "descripcion": "Breaded in 120 g of sweet shredded coconut."
+    },
+    "pf-filete-coco-media": {
+      "nombre": "Coconut fish fillet (half order)",
+      "descripcion": "Breaded in 90 g of sweet shredded coconut."
+    },
+    "pf-gamba": { "nombre": "Salmon or fish gamba (fillet cut)" },
+    "pf-medallon-atun": { "nombre": "Tuna medallion" },
+    "pf-huachinango-robalo": { "nombre": "Red snapper or snook" },
+
+    "te-jaibas": { "nombre": "Blue crabs" },
+    "te-cola-langosta": { "nombre": "Lobster tail" },
+    "te-langostino": { "nombre": "Langostino (prawns)" },
+    "te-camarones-grandes": { "nombre": "Large shrimp" },
+
+    "cz-caldillo-camaron-250": { "nombre": "Shrimp caldillo (full order)" },
+    "cz-caldillo-camaron-150": { "nombre": "Shrimp caldillo (half order)" },
+    "cz-caldillo-pescado": { "nombre": "Fish caldillo" },
+    "cz-caldillo-langostino": { "nombre": "Langostino caldillo", "descripcion": "Seasonal only." },
+    "cz-sopa-mariscos": {
+      "nombre": "Seafood soup (full order)",
+      "descripcion": "120 g of shrimp, 60 g of octopus, 100 g of fish and 120 g of blue crab."
+    },
+    "cz-sopa-mariscos-media": {
+      "nombre": "Seafood soup (half order)",
+      "descripcion": "120 g of shrimp, 60 g of octopus and 100 g of fish."
+    },
+    "cz-camarones-zarandeados-250": { "nombre": "Shrimp zarandeado (full order)" },
+    "cz-camarones-zarandeados-150": { "nombre": "Shrimp zarandeado (half order)" },
+    "cz-brocheta-camaron": {
+      "nombre": "Charcoal-grilled shrimp skewer",
+      "descripcion": "200 g of shrimp, 100 g of plantain, 100 g of onion, 50 g of bell pepper and 60 g of bacon."
+    },
+    "cz-filete-zarandeado-250": { "nombre": "Fish fillet zarandeado (full order)" },
+    "cz-filete-zarandeado-150": { "nombre": "Fish fillet zarandeado (half order)" },
+    "cz-pulpo-zarandeado": { "nombre": "Pulpo zarandeado (grilled octopus)" },
+    "cz-gamba-zarandeada": { "nombre": "Salmon or fish gamba zarandeada (grilled)" },
+    "cz-huachinango-robalo-zarandeado": { "nombre": "Red snapper or snook zarandeado (grilled)" },
+    "cz-medallon-atun-zarandeado": { "nombre": "Tuna medallion zarandeado (grilled)" },
+
+    "pc-milanesa-pollo-250": { "nombre": "Chicken milanesa (full order)" },
+    "pc-milanesa-pollo-150": { "nombre": "Chicken milanesa (half order)" },
+    "pc-arrachera-300": { "nombre": "Arrachera skirt steak (full order)" },
+    "pc-arrachera-200": { "nombre": "Arrachera skirt steak (half order)" },
+    "pc-pasta-alfredo": {
+      "nombre": "Pasta Alfredo",
+      "descripcion": "340 g of fusilli pasta with 160 g of shrimp or 180 g of chicken, grilled or breaded."
+    },
+    "pc-ensalada-casa": {
+      "nombre": "House salad",
+      "descripcion": "Lettuce, cucumber, bell pepper, apple, celery, nuts, shredded coconut, orange and avocado."
+    },
+    "pc-ensalada-verde": {
+      "nombre": "Green salad",
+      "descripcion": "Lettuce, cucumber, bell pepper, onion, tomato and avocado."
+    },
+    "pc-hamburguesa-camaron": { "nombre": "Shrimp burger" },
+    "pc-hamburguesa-pollo": { "nombre": "Chicken burger" },
+    "pc-hamburguesa-arrachera": { "nombre": "Arrachera skirt steak burger", "descripcion": "Grilled." },
+
+    "be-cerveza": { "nombre": "Beer" },
+    "be-negra-modelo": { "nombre": "Negra Modelo beer" },
+    "be-modelo-cristal": { "nombre": "Modelo Cristal beer" },
+    "be-clamato": { "nombre": "Glass of Clamato" },
+    "be-jarra-agua": { "nombre": "Pitcher of agua fresca" },
+    "be-media-jarra-agua": { "nombre": "Half pitcher of agua fresca" },
+    "be-litro-agua": { "nombre": "Liter of agua fresca" },
+    "be-vaso-agua": { "nombre": "Orangeade, limeade or agua fresca" },
+    "be-coco": { "nombre": "Fresh coconut" },
+    "be-refresco": { "nombre": "Soda" },
+    "be-cafe-olla": { "nombre": "Café de olla (spiced coffee) / hot water for coffee" },
+    "be-cafe-americano": { "nombre": "Americano coffee" },
+    "be-cafe-expresso": { "nombre": "Espresso" },
+    "be-carajillo": { "nombre": "Carajillo", "descripcion": "Licor 43 (60 mL) and espresso (60 mL)." },
+    "be-margarita": { "nombre": "Margarita" },
+    "be-mojito": { "nombre": "Mojito" },
+    "be-pina-colada": { "nombre": "Piña colada" },
+    "be-pinada": { "nombre": "Piñada (pineapple drink)" },
+    "be-sangria": { "nombre": "Sangria" },
+    "be-clericot": { "nombre": "Clericot (wine punch)" },
+    "be-clementina": { "nombre": "Clementina" },
+
+    "po-flan-napolitano": { "nombre": "Flan napolitano" },
+    "po-flan-queso": { "nombre": "Cheese flan" },
+    "po-pay-guayaba": { "nombre": "Gloria guava pie" },
+    "po-capirotada": { "nombre": "Capirotada (Mexican bread pudding)" },
+    "po-platano-frito-asado": { "nombre": "Fried or roasted plantain" },
+    "po-platano-flameado": { "nombre": "Flambéed plantain" },
+    "po-jericalla": { "nombre": "Jericalla (Guadalajara custard)" },
+    "po-helado-bellagio": { "nombre": "Bellagio ice cream" },
+    "po-paletas-villa": { "nombre": "Paletas de la Villa (ice pops)" }
+  }
+}

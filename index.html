@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Mariscos Carlos · Los mejores platillos del mar en Manzanillo</title>
+    <meta
+      name="description"
+      content="Mariscos Carlos, los más frescos de Manzanillo desde 2004. Mira el menú, pide por WhatsApp, reserva tu mesa o paga con transferencia. Lunes y de miércoles a domingo, 12:00 a 19:00."
+    />
+    <meta name="theme-color" content="#0A1B28" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:title" content="Mariscos Carlos · Manzanillo, Colima" />
+    <meta property="og:description" content="Los mejores platillos del mar. Menú, pedidos por WhatsApp y reservaciones." />
+    <meta property="og:image" content="/media/real/fachada.webp" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Lo primero que se pinta: tipografías propias y el póster del video del hero -->
+    <link rel="preload" href="/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" as="image" href="/media/hero-poster-640.webp" media="(max-width: 767px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/media/hero-poster.webp" media="(min-width: 768px)" fetchpriority="high" />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 24px; font-family: sans-serif">
+        Activa JavaScript para ver el menú. También puedes pedir por WhatsApp al +52 1 314 149 8733.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

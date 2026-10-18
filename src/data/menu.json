@@ -1,0 +1,1206 @@
+{
+  "moneda": "MXN",
+  "fuente": "Transcrito de las fotos del menú impreso de Mariscos Carlos (14 de octubre de 2026). Cuando el menú tiene una etiqueta escrita a mano, se usa ese precio.",
+  "notas": {
+    "temporada": "Algunos productos son de temporada. Pregunta a tu mesero.",
+    "facturacion": "Facturación sólo el mismo día del consumo. IVA incluido.",
+    "preparacion_larga": "Marcado con reloj en el menú impreso: tarda un poco más en prepararse."
+  },
+  "glosario": [
+    { "termino": "A la diabla", "descripcion": "Salsa preparada con cátsup y salsa picante." },
+    { "termino": "Al ajillo", "descripcion": "Ajo y chile seco." },
+    { "termino": "Empapelado", "descripcion": "Jitomate, cebolla, pimiento morrón, alcaparras, chile verde, aceitunas y especias." }
+  ],
+  "guarniciones": [
+    "Arroz",
+    "Frijoles",
+    "Ensalada de lechuga natural",
+    "Papas a la francesa",
+    "Ensalada de lechuga con mayonesa",
+    "Verduras al vapor",
+    "Ensalada de col con aderezo dulce",
+    "Ensalada de manzana"
+  ],
+  "categorias": [
+    {
+      "id": "camarones-pulpo",
+      "nombre": "Camarones y pulpo",
+      "items": [
+        {
+          "id": "cp-camaron-cascara-250",
+          "nombre": "Orden de camarones con cáscara",
+          "porcion": "250 g",
+          "precio": 240,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Natural"] }]
+        },
+        {
+          "id": "cp-camaron-cascara-150",
+          "nombre": "Media orden de camarones con cáscara",
+          "porcion": "150 g",
+          "precio": 165,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Natural"] }]
+        },
+        {
+          "id": "cp-camaron-sin-cascara-250",
+          "nombre": "Orden de camarones sin cáscara",
+          "porcion": "250 g",
+          "precio": 280,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla"] }]
+        },
+        {
+          "id": "cp-camaron-sin-cascara-150",
+          "nombre": "Media orden de camarón sin cáscara",
+          "porcion": "150 g",
+          "precio": 180,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla"] }]
+        },
+        {
+          "id": "cp-camaron-tocino-8",
+          "nombre": "Orden de camarones al tocino",
+          "porcion": "8 pzas",
+          "descripcion": "Rellenos de queso cheddar (20 g) y envueltos con 60 g de tocino c/u.",
+          "precio": 450
+        },
+        {
+          "id": "cp-camaron-tocino-4",
+          "nombre": "Media orden de camarones al tocino",
+          "porcion": "4 pzas",
+          "descripcion": "Rellenos de queso cheddar (20 g) y envueltos con 60 g de tocino c/u.",
+          "precio": 240
+        },
+        {
+          "id": "cp-camarones-hawaianos",
+          "nombre": "Camarones hawaianos",
+          "descripcion": "180 g de camarón, 80 g de jamón, 70 g de piña y 120 g de queso mozzarella gratinado.",
+          "precio": 290
+        },
+        {
+          "id": "cp-camaron-sin-cascara-9pzas",
+          "nombre": "Orden de camarones sin cáscara",
+          "porcion": "9 pzas",
+          "precio": 295,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Empanizados", "A la plancha", "Capeados"] }]
+        },
+        {
+          "id": "cp-camaron-sin-cascara-5pzas",
+          "nombre": "Media orden de camarones sin cáscara",
+          "porcion": "5 pzas",
+          "precio": 200,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Empanizados", "A la plancha", "Capeados"] }]
+        },
+        {
+          "id": "cp-camaron-coco-8",
+          "nombre": "Orden de camarones al coco",
+          "porcion": "8 pzas",
+          "descripcion": "Empanizados con coco rallado dulce.",
+          "precio": 295
+        },
+        {
+          "id": "cp-camaron-coco-5",
+          "nombre": "Media orden de camarones al coco",
+          "porcion": "5 pzas",
+          "descripcion": "Empanizados con coco rallado dulce.",
+          "precio": 200
+        },
+        {
+          "id": "cp-camaron-cascara-250-salsas",
+          "nombre": "Orden de camarones con cáscara en salsa",
+          "porcion": "250 g",
+          "precio": 265,
+          "opciones": [{ "nombre": "Salsa", "valores": ["Entomatados", "Al tamarindo", "Habanero", "Al chipotle cremoso", "Mango con habanero"] }]
+        },
+        {
+          "id": "cp-camaron-cascara-150-salsas",
+          "nombre": "Media orden de camarones con cáscara en salsa",
+          "porcion": "150 g",
+          "precio": 195,
+          "opciones": [{ "nombre": "Salsa", "valores": ["Entomatados", "Al tamarindo", "Habanero", "Al chipotle cremoso", "Mango con habanero"] }]
+        },
+        {
+          "id": "cp-camaron-sin-cascara-220-salsas",
+          "nombre": "Orden de camarones sin cáscara en salsa",
+          "porcion": "220 g",
+          "precio": 300,
+          "opciones": [{ "nombre": "Salsa", "valores": ["Entomatados", "Al tamarindo", "Habanero", "Al chipotle cremoso", "Mango con habanero"] }]
+        },
+        {
+          "id": "cp-camaron-sin-cascara-150-salsas",
+          "nombre": "Media orden de camarones sin cáscara en salsa",
+          "porcion": "150 g",
+          "precio": 210,
+          "opciones": [{ "nombre": "Salsa", "valores": ["Entomatados", "Al tamarindo", "Habanero", "Al chipotle cremoso", "Mango con habanero"] }]
+        },
+        {
+          "id": "cp-pulpo-280",
+          "nombre": "Orden de pulpo",
+          "porcion": "280 g",
+          "precio": 450,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Empanizado", "Loco", "Mexicana", "Habanero"] }]
+        },
+        {
+          "id": "cp-pulpo-180",
+          "nombre": "Media orden de pulpo",
+          "porcion": "180 g",
+          "precio": 300,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Empanizado", "Loco", "Mexicana", "Habanero"] }]
+        },
+        {
+          "id": "cp-orden-mixta",
+          "nombre": "Orden mixta",
+          "descripcion": "150 g de camarón y 180 g de pulpo.",
+          "precio": 420,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Loco", "Mexicana", "Habanero"] }]
+        }
+      ]
+    },
+    {
+      "id": "entradas",
+      "nombre": "Entradas",
+      "notas": ["Pregunta por los productos de temporada (gorro, callo y ostión)."],
+      "items": [
+        {
+          "id": "en-tostada-camaron-pulpo-mayonesa",
+          "nombre": "Tostada de camarón y pulpo con mayonesa",
+          "precio": 110
+        },
+        {
+          "id": "en-tostada-ceviche-camaron",
+          "nombre": "Tostada de ceviche de camarón",
+          "porcion": "50 g",
+          "precio": 78
+        },
+        {
+          "id": "en-tostada-aguachile",
+          "nombre": "Tostada de aguachile",
+          "porcion": "60 g",
+          "precio": 80,
+          "opciones": [{ "nombre": "Aguachile", "valores": ["Verde", "Rojo", "Negro"] }]
+        },
+        {
+          "id": "en-tostada-campechana",
+          "nombre": "Tostada campechana",
+          "porcion": "50 g",
+          "precio": 90
+        },
+        {
+          "id": "en-tostada-ceviche-salpicon",
+          "nombre": "Tostada de ceviche o salpicón",
+          "porcion": "50 g",
+          "precio": 55,
+          "opciones": [{ "nombre": "Tipo", "valores": ["Ceviche", "Salpicón"] }]
+        },
+        {
+          "id": "en-tostada-camaron",
+          "nombre": "Tostada de camarón",
+          "porcion": "50 g",
+          "precio": 70
+        },
+        {
+          "id": "en-tostada-callo-pulpo-camaron-gorro",
+          "nombre": "Tostada de callo, pulpo, camarón y gorro",
+          "porcion": "50 g",
+          "precio": 90,
+          "temporada": true
+        },
+        {
+          "id": "en-callo-300",
+          "nombre": "Orden de callo",
+          "porcion": "300 g",
+          "precio": 360,
+          "temporada": true
+        },
+        {
+          "id": "en-callo-150",
+          "nombre": "Media orden de callo",
+          "porcion": "150 g",
+          "precio": 200,
+          "temporada": true
+        },
+        {
+          "id": "en-ostiones-150",
+          "nombre": "Orden de ostiones",
+          "porcion": "150 g",
+          "descripcion": "Sin concha.",
+          "precio": 220,
+          "temporada": true
+        },
+        {
+          "id": "en-ostiones-90",
+          "nombre": "Media orden de ostiones",
+          "porcion": "90 g",
+          "descripcion": "Sin concha.",
+          "precio": 150,
+          "temporada": true
+        },
+        {
+          "id": "en-ceviche-pescado-300",
+          "nombre": "Orden de ceviche de pescado",
+          "porcion": "300 g",
+          "precio": 200
+        },
+        {
+          "id": "en-ceviche-pescado-150",
+          "nombre": "Media orden de ceviche de pescado",
+          "porcion": "150 g",
+          "precio": 150
+        },
+        {
+          "id": "en-ceviche-camaron-370",
+          "nombre": "Orden de ceviche de camarón",
+          "porcion": "370 g",
+          "precio": 280
+        },
+        {
+          "id": "en-ceviche-camaron-230",
+          "nombre": "Media orden de ceviche de camarón",
+          "porcion": "230 g",
+          "precio": 200
+        },
+        {
+          "id": "en-salpicon-450",
+          "nombre": "Orden de salpicón",
+          "porcion": "450 g",
+          "precio": 180
+        },
+        {
+          "id": "en-salpicon-300",
+          "nombre": "Media orden de salpicón",
+          "porcion": "300 g",
+          "precio": 130
+        },
+        {
+          "id": "en-tahitiana-pescado",
+          "nombre": "Tahitiana de pescado",
+          "porcion": "300 g",
+          "precio": 290
+        },
+        {
+          "id": "en-molcajete-mariscos",
+          "nombre": "Molcajete de mariscos",
+          "porcion": "200 g",
+          "descripcion": "Camarón, gorro, ostión, pulpo y caracol.",
+          "precio": 380
+        },
+        {
+          "id": "en-cazuela-mixta-aguachile",
+          "nombre": "Cazuela mixta de aguachile",
+          "porcion": "300 g",
+          "descripcion": "Camarón y filete.",
+          "precio": 260
+        },
+        {
+          "id": "en-pulpo-camaron-enamorado",
+          "nombre": "Pulpo y camarón enamorado",
+          "porcion": "260 g",
+          "descripcion": "Camarón, pulpo, jitomate, cebolla, mayonesa y jalapeño.",
+          "precio": 330
+        },
+        {
+          "id": "en-ensalada-mariscos-chica",
+          "nombre": "Ensalada chica de mariscos",
+          "porcion": "250 g",
+          "descripcion": "250 g de marisco: camarón, pulpo, caracol, gorro, callo y ostión.",
+          "precio": 330
+        },
+        {
+          "id": "en-ensalada-mariscos-grande",
+          "nombre": "Ensalada grande de mariscos",
+          "porcion": "500 g",
+          "descripcion": "500 g de marisco: camarón, pulpo, caracol, gorro, callo y ostión.",
+          "precio": 600
+        },
+        {
+          "id": "en-aguachile-camaron-220",
+          "nombre": "Orden de aguachile de camarón",
+          "porcion": "220 g",
+          "precio": 240,
+          "opciones": [{ "nombre": "Aguachile", "valores": ["Rojo", "Negro", "Verde"] }]
+        },
+        {
+          "id": "en-aguachile-camaron-140",
+          "nombre": "Media orden de aguachile de camarón",
+          "porcion": "140 g",
+          "precio": 160,
+          "opciones": [{ "nombre": "Aguachile", "valores": ["Rojo", "Negro", "Verde"] }]
+        }
+      ]
+    },
+    {
+      "id": "tacos-guarniciones",
+      "nombre": "Tacos y guarniciones",
+      "items": [
+        {
+          "id": "tg-tacos-dorados-camaron-4",
+          "nombre": "Orden de tacos dorados de camarón",
+          "porcion": "4 pzas",
+          "seccion": "Tacos y quesadillas",
+          "precio": 160
+        },
+        {
+          "id": "tg-tacos-camaron-empanizado-4",
+          "nombre": "Orden de tacos de camarón empanizado",
+          "porcion": "4 pzas",
+          "seccion": "Tacos y quesadillas",
+          "precio": 160
+        },
+        {
+          "id": "tg-tacos-filete-empanizado-4",
+          "nombre": "Orden de tacos de filete empanizado en dedos",
+          "porcion": "4 pzas",
+          "seccion": "Tacos y quesadillas",
+          "precio": 160
+        },
+        {
+          "id": "tg-taco-camaron-dorado",
+          "nombre": "Taco de camarón dorado",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 45
+        },
+        {
+          "id": "tg-taco-camaron-empanizado",
+          "nombre": "Taco de camarón empanizado",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 45
+        },
+        {
+          "id": "tg-taco-filete-empanizado",
+          "nombre": "Taco de filete empanizado",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 45
+        },
+        {
+          "id": "tg-taco-salpicon",
+          "nombre": "Taco de salpicón",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 30,
+          "opciones": [{ "nombre": "Cocción", "valores": ["A la plancha", "A las brasas"] }]
+        },
+        {
+          "id": "tg-taco-frijoles",
+          "nombre": "Taco de frijoles",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 30,
+          "opciones": [{ "nombre": "Cocción", "valores": ["A la plancha", "A las brasas"] }]
+        },
+        {
+          "id": "tg-tacos-frijoles-asadero-4",
+          "nombre": "Orden de tacos de frijoles con queso asadero",
+          "porcion": "4 pzas",
+          "seccion": "Tacos y quesadillas",
+          "precio": 120,
+          "opciones": [{ "nombre": "Cocción", "valores": ["A la plancha", "A las brasas"] }]
+        },
+        {
+          "id": "tg-tacos-frijoles-4",
+          "nombre": "Orden de tacos de frijoles",
+          "porcion": "4 pzas",
+          "seccion": "Tacos y quesadillas",
+          "precio": 100,
+          "opciones": [{ "nombre": "Cocción", "valores": ["A la plancha", "A las brasas"] }]
+        },
+        {
+          "id": "tg-taco-frijoles-asadero",
+          "nombre": "Taco de frijoles con queso asadero",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 35,
+          "opciones": [{ "nombre": "Cocción", "valores": ["A la plancha", "A las brasas"] }]
+        },
+        {
+          "id": "tg-quesadilla-camaron",
+          "nombre": "Quesadilla de camarón",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 50
+        },
+        {
+          "id": "tg-quesadilla-natural",
+          "nombre": "Quesadilla natural",
+          "porcion": "1 pza",
+          "seccion": "Tacos y quesadillas",
+          "precio": 30
+        },
+        {
+          "id": "tg-papas",
+          "nombre": "Orden de papas",
+          "porcion": "200 g",
+          "seccion": "Guarniciones",
+          "precio": 50
+        },
+        {
+          "id": "tg-frijoles",
+          "nombre": "Orden de frijoles",
+          "porcion": "250 g",
+          "seccion": "Guarniciones",
+          "precio": 60
+        },
+        {
+          "id": "tg-arroz-300",
+          "nombre": "Orden de arroz",
+          "porcion": "300 g",
+          "seccion": "Guarniciones",
+          "precio": 70
+        },
+        {
+          "id": "tg-arroz-150",
+          "nombre": "Media orden de arroz",
+          "porcion": "150 g",
+          "seccion": "Guarniciones",
+          "precio": 50
+        },
+        {
+          "id": "tg-guacamole-250",
+          "nombre": "Orden de guacamole",
+          "porcion": "250 g",
+          "seccion": "Guarniciones",
+          "precio": 80
+        },
+        {
+          "id": "tg-guacamole-150",
+          "nombre": "Media orden de guacamole",
+          "porcion": "150 g",
+          "seccion": "Guarniciones",
+          "precio": 65
+        },
+        {
+          "id": "tg-aguacate-250",
+          "nombre": "Orden de aguacate",
+          "porcion": "250 g",
+          "seccion": "Guarniciones",
+          "precio": 60
+        },
+        {
+          "id": "tg-aguacate-125",
+          "nombre": "Media orden de aguacate",
+          "porcion": "125 g",
+          "seccion": "Guarniciones",
+          "precio": 30
+        }
+      ]
+    },
+    {
+      "id": "cocteleria",
+      "nombre": "Coctelería",
+      "items": [
+        {
+          "id": "co-coctel-camaron-grande",
+          "nombre": "Coctel grande de camarón",
+          "porcion": "200 g",
+          "seccion": "Cocteles",
+          "precio": 260
+        },
+        {
+          "id": "co-coctel-camaron-mediano",
+          "nombre": "Coctel mediano de camarón",
+          "porcion": "150 g",
+          "seccion": "Cocteles",
+          "precio": 180
+        },
+        {
+          "id": "co-coctel-camaron-chico",
+          "nombre": "Coctel chico de camarón",
+          "porcion": "90 g",
+          "seccion": "Cocteles",
+          "precio": 120
+        },
+        {
+          "id": "co-coctel-campechano-grande",
+          "nombre": "Coctel campechano grande",
+          "porcion": "200 g",
+          "seccion": "Cocteles",
+          "precio": 280
+        },
+        {
+          "id": "co-coctel-campechano-mediano",
+          "nombre": "Coctel campechano mediano",
+          "porcion": "150 g",
+          "seccion": "Cocteles",
+          "precio": 200
+        },
+        {
+          "id": "co-coctel-campechano-chico",
+          "nombre": "Coctel campechano chico",
+          "porcion": "90 g",
+          "seccion": "Cocteles",
+          "precio": 120
+        },
+        {
+          "id": "co-coctel-cpc-grande",
+          "nombre": "Coctel grande de camarón, pulpo y/o caracol",
+          "porcion": "200 g",
+          "seccion": "Cocteles",
+          "precio": 280
+        },
+        {
+          "id": "co-coctel-cpc-mediano",
+          "nombre": "Coctel mediano de camarón, pulpo y/o caracol",
+          "porcion": "150 g",
+          "seccion": "Cocteles",
+          "precio": 200
+        },
+        {
+          "id": "co-coctel-cpc-chico",
+          "nombre": "Coctel chico de camarón, pulpo y/o caracol",
+          "porcion": "90 g",
+          "seccion": "Cocteles",
+          "precio": 120
+        },
+        {
+          "id": "co-consome-grande",
+          "nombre": "Consomé de camarón grande",
+          "porcion": "400 mL",
+          "descripcion": "Con 2 pzas de camarón.",
+          "seccion": "Consomé de camarón",
+          "precio": 60
+        },
+        {
+          "id": "co-consome-mediano",
+          "nombre": "Consomé de camarón mediano",
+          "porcion": "250 mL",
+          "descripcion": "Con 1 pza de camarón.",
+          "seccion": "Consomé de camarón",
+          "precio": 30
+        },
+        {
+          "id": "co-consome-chico",
+          "nombre": "Consomé de camarón chico",
+          "porcion": "150 mL",
+          "descripcion": "Con 1 pza de camarón.",
+          "seccion": "Consomé de camarón",
+          "precio": 28
+        }
+      ]
+    },
+    {
+      "id": "pescados-filetes",
+      "nombre": "Pescados y filetes",
+      "items": [
+        {
+          "id": "pf-filete-al-gusto-250",
+          "nombre": "Orden de filete al gusto",
+          "porcion": "250 g",
+          "precio": 250,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Plancha", "Empanizado", "Empanizado en dedos"] }]
+        },
+        {
+          "id": "pf-filete-al-gusto-150",
+          "nombre": "Media orden de filete al gusto",
+          "porcion": "150 g",
+          "precio": 170,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Plancha", "Empanizado", "Empanizado en dedos"] }]
+        },
+        {
+          "id": "pf-filete-estilos-250",
+          "nombre": "Orden de filete",
+          "porcion": "250 g",
+          "precio": 270,
+          "opciones": [{ "nombre": "Estilo", "valores": ["Veracruzano", "Empapelado", "Sol", "Loco", "Encebollado"] }]
+        },
+        {
+          "id": "pf-filete-estilos-150",
+          "nombre": "Media orden de filete",
+          "porcion": "150 g",
+          "precio": 195,
+          "opciones": [{ "nombre": "Estilo", "valores": ["Veracruzano", "Empapelado", "Sol", "Loco", "Encebollado"] }]
+        },
+        {
+          "id": "pf-filete-relleno",
+          "nombre": "Filete relleno",
+          "descripcion": "200 g de filete, 80 g de camarón, 70 g de pulpo, 100 g de queso cheddar, 15 g de morrón y 10 g de apio, envuelto en 100 g de tocino.",
+          "precio": 290
+        },
+        {
+          "id": "pf-filete-gratinado",
+          "nombre": "Orden de filete gratinado",
+          "descripcion": "200 g de filete y 60 g de queso mozzarella.",
+          "precio": 270
+        },
+        {
+          "id": "pf-filete-gratinado-media",
+          "nombre": "Media orden de filete gratinado",
+          "descripcion": "150 g de filete y 60 g de queso mozzarella.",
+          "precio": 200
+        },
+        {
+          "id": "pf-filete-florentino",
+          "nombre": "Orden de filete florentino",
+          "descripcion": "200 g de filete, 70 g de camarón, 70 g de pulpo, 10 g de apio y 120 g de queso mozzarella.",
+          "precio": 290
+        },
+        {
+          "id": "pf-filete-florentino-media",
+          "nombre": "Media orden de filete florentino",
+          "descripcion": "150 g de filete, 70 g de camarón, 70 g de pulpo, 10 g de apio y 120 g de queso mozzarella.",
+          "precio": 240
+        },
+        {
+          "id": "pf-filete-coco",
+          "nombre": "Filete al coco",
+          "porcion": "200 g",
+          "descripcion": "Empanizado en 120 g de coco dulce rallado.",
+          "precio": 270,
+          "preparacion_larga": true
+        },
+        {
+          "id": "pf-filete-coco-media",
+          "nombre": "Media orden de filete al coco",
+          "porcion": "150 g",
+          "descripcion": "Empanizado en 90 g de coco dulce rallado.",
+          "precio": 200,
+          "preparacion_larga": true
+        },
+        {
+          "id": "pf-gamba",
+          "nombre": "Gamba de salmón o pescado",
+          "porcion": "300 g",
+          "precio": 300,
+          "preparacion_larga": true,
+          "opciones": [
+            { "nombre": "Tipo", "valores": ["Salmón", "Pescado"] },
+            { "nombre": "Preparación", "valores": ["Ajo", "Plancha", "Mantequilla"] }
+          ]
+        },
+        {
+          "id": "pf-medallon-atun",
+          "nombre": "Medallón de atún",
+          "porcion": "220 g",
+          "precio": 220,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Plancha", "Ajillo", "Diabla", "Mantequilla"] }]
+        },
+        {
+          "id": "pf-huachinango-robalo",
+          "nombre": "Huachinango o robalo",
+          "precio": 500,
+          "por_kilo": true,
+          "precio_texto": "$500 por kilo",
+          "opciones": [
+            { "nombre": "Pescado", "valores": ["Huachinango", "Robalo"] },
+            { "nombre": "Preparación", "valores": ["Frito", "Ajo", "Ajillo", "Diabla", "Mantequilla"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temporada",
+      "nombre": "Temporada",
+      "notas": ["Productos por temporada: pregunta a tu mesero por la disponibilidad del día."],
+      "items": [
+        {
+          "id": "te-jaibas",
+          "nombre": "Orden de jaibas",
+          "precio": 400,
+          "por_kilo": true,
+          "precio_texto": "$400 por kilo",
+          "temporada": true,
+          "preparacion_larga": true,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla", "Naturales"] }]
+        },
+        {
+          "id": "te-cola-langosta",
+          "nombre": "Cola de langosta",
+          "porcion": "400 a 500 g",
+          "precio": 750,
+          "temporada": true,
+          "preparacion_larga": true,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla"] }]
+        },
+        {
+          "id": "te-langostino",
+          "nombre": "Langostino",
+          "porcion": "400 a 500 g",
+          "precio": 600,
+          "temporada": true,
+          "preparacion_larga": true,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla"] }]
+        },
+        {
+          "id": "te-camarones-grandes",
+          "nombre": "Camarones grandes",
+          "porcion": "500 g",
+          "precio": 650,
+          "temporada": true,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Ajo", "Ajillo", "Mantequilla", "Diabla"] }]
+        }
+      ]
+    },
+    {
+      "id": "caldos-zarandeados",
+      "nombre": "Caldos y zarandeados",
+      "items": [
+        {
+          "id": "cz-caldillo-camaron-250",
+          "nombre": "Caldillo de camarón",
+          "porcion": "250 g",
+          "seccion": "Caldos y sopas",
+          "precio": 200,
+          "opciones": [{ "nombre": "Camarón", "valores": ["Con cáscara", "Sin cáscara"] }]
+        },
+        {
+          "id": "cz-caldillo-camaron-150",
+          "nombre": "Medio caldillo de camarón",
+          "porcion": "150 g",
+          "seccion": "Caldos y sopas",
+          "precio": 150,
+          "opciones": [{ "nombre": "Camarón", "valores": ["Con cáscara", "Sin cáscara"] }]
+        },
+        {
+          "id": "cz-caldillo-pescado",
+          "nombre": "Caldillo de pescado",
+          "seccion": "Caldos y sopas",
+          "precio": 460,
+          "por_kilo": true,
+          "precio_texto": "$460 por kilo"
+        },
+        {
+          "id": "cz-caldillo-langostino",
+          "nombre": "Caldillo de langostino",
+          "porcion": "300 g",
+          "descripcion": "Solo por temporada.",
+          "seccion": "Caldos y sopas",
+          "precio": 380,
+          "temporada": true
+        },
+        {
+          "id": "cz-sopa-mariscos",
+          "nombre": "Sopa de mariscos",
+          "porcion": "420 g",
+          "descripcion": "120 g de camarón, 60 g de pulpo, 100 g de pescado y 120 g de jaiba.",
+          "seccion": "Caldos y sopas",
+          "precio": 260
+        },
+        {
+          "id": "cz-sopa-mariscos-media",
+          "nombre": "Media sopa de mariscos",
+          "porcion": "280 g",
+          "descripcion": "120 g de camarón, 60 g de pulpo y 100 g de pescado.",
+          "seccion": "Caldos y sopas",
+          "precio": 220
+        },
+        {
+          "id": "cz-camarones-zarandeados-250",
+          "nombre": "Orden de camarones zarandeados",
+          "porcion": "250 g",
+          "seccion": "Zarandeados",
+          "precio": 295,
+          "opciones": [{ "nombre": "Camarón", "valores": ["Con cáscara", "Sin cáscara"] }]
+        },
+        {
+          "id": "cz-camarones-zarandeados-150",
+          "nombre": "Media orden de camarones zarandeados",
+          "porcion": "150 g",
+          "seccion": "Zarandeados",
+          "precio": 200,
+          "opciones": [{ "nombre": "Camarón", "valores": ["Con cáscara", "Sin cáscara"] }]
+        },
+        {
+          "id": "cz-brocheta-camaron",
+          "nombre": "Brocheta de camarón a las brasas",
+          "descripcion": "200 g de camarón, 100 g de plátano macho, 100 g de cebolla, 50 g de morrón y 60 g de tocino.",
+          "seccion": "Zarandeados",
+          "precio": 280,
+          "preparacion_larga": true
+        },
+        {
+          "id": "cz-filete-zarandeado-250",
+          "nombre": "Orden de filete zarandeado",
+          "porcion": "250 g",
+          "seccion": "Zarandeados",
+          "precio": 270
+        },
+        {
+          "id": "cz-filete-zarandeado-150",
+          "nombre": "Media orden de filete zarandeado",
+          "porcion": "150 g",
+          "seccion": "Zarandeados",
+          "precio": 200
+        },
+        {
+          "id": "cz-pulpo-zarandeado",
+          "nombre": "Pulpo zarandeado",
+          "porcion": "300 g",
+          "seccion": "Zarandeados",
+          "precio": 480,
+          "preparacion_larga": true
+        },
+        {
+          "id": "cz-gamba-zarandeada",
+          "nombre": "Gamba de salmón o pescado zarandeada",
+          "porcion": "300 g",
+          "seccion": "Zarandeados",
+          "precio": 300,
+          "preparacion_larga": true,
+          "opciones": [{ "nombre": "Tipo", "valores": ["Salmón", "Pescado"] }]
+        },
+        {
+          "id": "cz-huachinango-robalo-zarandeado",
+          "nombre": "Huachinango o robalo zarandeado",
+          "porcion": "300 g",
+          "seccion": "Zarandeados",
+          "precio": 550,
+          "por_kilo": true,
+          "precio_texto": "$550 por kilo",
+          "opciones": [{ "nombre": "Pescado", "valores": ["Huachinango", "Robalo"] }]
+        },
+        {
+          "id": "cz-medallon-atun-zarandeado",
+          "nombre": "Medallón de atún zarandeado",
+          "porcion": "150 a 180 g",
+          "seccion": "Zarandeados",
+          "precio": 170,
+          "preparacion_larga": true
+        }
+      ]
+    },
+    {
+      "id": "pollo-carne",
+      "nombre": "Pollo y carne",
+      "notas": [
+        "Nuestras hamburguesas van acompañadas de 100 g de papas a la francesa y ensalada de lechuga con aguacate, jitomate y cebolla. Por dentro llevan 100 g de queso mozzarella y 20 g de tocino crocante.",
+        "Ensaladas: por $150, agrega 150 g de proteína de tu elección (atún, salmón, camarón o pollo)."
+      ],
+      "items": [
+        {
+          "id": "pc-milanesa-pollo-250",
+          "nombre": "Orden de milanesa de pollo",
+          "porcion": "250 g",
+          "seccion": "Pollo y carne",
+          "precio": 150,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Mantequilla", "A la plancha", "Empanizado"] }]
+        },
+        {
+          "id": "pc-milanesa-pollo-150",
+          "nombre": "Media orden de milanesa de pollo",
+          "porcion": "150 g",
+          "seccion": "Pollo y carne",
+          "precio": 110,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Mantequilla", "A la plancha", "Empanizado"] }]
+        },
+        {
+          "id": "pc-arrachera-300",
+          "nombre": "Orden de arrachera",
+          "porcion": "300 g",
+          "seccion": "Pollo y carne",
+          "precio": 330
+        },
+        {
+          "id": "pc-arrachera-200",
+          "nombre": "Media orden de arrachera",
+          "porcion": "200 g",
+          "seccion": "Pollo y carne",
+          "precio": 220
+        },
+        {
+          "id": "pc-pasta-alfredo",
+          "nombre": "Pasta Alfredo",
+          "descripcion": "340 g de pasta fusilli con 160 g de camarón o 180 g de pollo, a la plancha o empanizado.",
+          "seccion": "Pastas",
+          "precio": 320,
+          "opciones": [
+            { "nombre": "Proteína", "valores": ["Camarón", "Pollo"] },
+            { "nombre": "Preparación", "valores": ["A la plancha", "Empanizado"] }
+          ]
+        },
+        {
+          "id": "pc-ensalada-casa",
+          "nombre": "Ensalada de la casa",
+          "porcion": "250 g",
+          "descripcion": "Lechuga, pepino, pimiento morrón, manzana, apio, nuez, coco rallado, naranja y aguacate.",
+          "seccion": "Ensaladas",
+          "precio": 120,
+          "opciones": [
+            {
+              "nombre": "Agrega proteína (150 g)",
+              "valores": ["Sin proteína", "Atún", "Salmón", "Camarón", "Pollo"],
+              "extra": { "Atún": 150, "Salmón": 150, "Camarón": 150, "Pollo": 150 }
+            }
+          ]
+        },
+        {
+          "id": "pc-ensalada-verde",
+          "nombre": "Ensalada verde",
+          "porcion": "150 g",
+          "descripcion": "Lechuga, pepino, pimiento morrón, cebolla, jitomate y aguacate.",
+          "seccion": "Ensaladas",
+          "precio": 80,
+          "opciones": [
+            {
+              "nombre": "Agrega proteína (150 g)",
+              "valores": ["Sin proteína", "Atún", "Salmón", "Camarón", "Pollo"],
+              "extra": { "Atún": 150, "Salmón": 150, "Camarón": 150, "Pollo": 150 }
+            }
+          ]
+        },
+        {
+          "id": "pc-hamburguesa-camaron",
+          "nombre": "Hamburguesa de camarón",
+          "porcion": "100 g",
+          "seccion": "Hamburguesas",
+          "precio": 150,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Empanizado", "A la plancha"] }]
+        },
+        {
+          "id": "pc-hamburguesa-pollo",
+          "nombre": "Hamburguesa de pollo",
+          "porcion": "100 g",
+          "seccion": "Hamburguesas",
+          "precio": 120,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Empanizado", "A la plancha"] }]
+        },
+        {
+          "id": "pc-hamburguesa-arrachera",
+          "nombre": "Hamburguesa de arrachera",
+          "porcion": "100 g",
+          "descripcion": "A la plancha.",
+          "seccion": "Hamburguesas",
+          "precio": 150
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "notas": ["Tarro michelado o salseado gratis."],
+      "items": [
+        {
+          "id": "be-cerveza",
+          "nombre": "Cerveza",
+          "porcion": "355 mL",
+          "seccion": "Cervezas",
+          "precio": 50,
+          "opciones": [
+            {
+              "nombre": "Marca",
+              "valores": ["Corona", "Victoria", "Pacífico", "Estrella", "Corona Light", "Indio", "Amstel Ultra", "Heineken", "Heineken 0.0", "Tecate", "Tecate Light", "Tecate Ámbar", "Miller", "Bohemia Clara", "Bohemia Oscura", "Michelob Ultra", "XX Lager", "XX Ámbar"]
+            },
+            { "nombre": "Tarro (gratis)", "valores": ["Natural", "Michelado", "Salseado"] }
+          ]
+        },
+        {
+          "id": "be-negra-modelo",
+          "nombre": "Cerveza Negra Modelo",
+          "porcion": "355 mL",
+          "seccion": "Cervezas",
+          "precio": 55,
+          "opciones": [{ "nombre": "Tarro (gratis)", "valores": ["Natural", "Michelado", "Salseado"] }]
+        },
+        {
+          "id": "be-modelo-cristal",
+          "nombre": "Cerveza Modelo Cristal",
+          "porcion": "355 mL",
+          "seccion": "Cervezas",
+          "precio": 55,
+          "opciones": [{ "nombre": "Tarro (gratis)", "valores": ["Natural", "Michelado", "Salseado"] }]
+        },
+        {
+          "id": "be-clamato",
+          "nombre": "Vaso de Clamato",
+          "porcion": "140 mL",
+          "seccion": "Cervezas",
+          "precio": 28
+        },
+        {
+          "id": "be-jarra-agua",
+          "nombre": "Jarra de agua fresca natural",
+          "porcion": "1.8 L",
+          "seccion": "Aguas frescas",
+          "precio": 200,
+          "opciones": [{ "nombre": "Sabor", "valores": ["Coco", "Naranja", "Limón", "Horchata", "Jamaica", "Maracuyá"] }]
+        },
+        {
+          "id": "be-media-jarra-agua",
+          "nombre": "Media jarra de agua fresca natural",
+          "porcion": "900 mL",
+          "seccion": "Aguas frescas",
+          "precio": 120,
+          "opciones": [{ "nombre": "Sabor", "valores": ["Coco", "Naranja", "Limón", "Horchata", "Jamaica", "Maracuyá"] }]
+        },
+        {
+          "id": "be-litro-agua",
+          "nombre": "Litro de agua fresca natural",
+          "porcion": "1 L",
+          "seccion": "Aguas frescas",
+          "precio": 100,
+          "opciones": [{ "nombre": "Sabor", "valores": ["Coco", "Naranja", "Limón", "Horchata", "Jamaica", "Maracuyá"] }]
+        },
+        {
+          "id": "be-vaso-agua",
+          "nombre": "Naranjada, limonada o agua fresca",
+          "porcion": "450 mL",
+          "seccion": "Aguas frescas",
+          "precio": 60,
+          "opciones": [{ "nombre": "Sabor", "valores": ["Naranjada", "Limonada", "Agua de coco", "Horchata", "Jamaica", "Maracuyá"] }]
+        },
+        {
+          "id": "be-coco",
+          "nombre": "Coco",
+          "porcion": "1 pza",
+          "seccion": "Aguas frescas",
+          "precio": 60
+        },
+        {
+          "id": "be-refresco",
+          "nombre": "Refresco",
+          "porcion": "355 mL",
+          "seccion": "Refrescos",
+          "precio": 45,
+          "opciones": [
+            {
+              "nombre": "Refresco",
+              "valores": ["Coca-Cola", "Fanta", "Sprite", "Topo Chico", "Mineral Peñafiel", "Sidral Mundet", "Squirt", "Coca-Cola Light", "Coca-Cola Sin Azúcar"]
+            }
+          ]
+        },
+        {
+          "id": "be-cafe-olla",
+          "nombre": "Café de olla / agua para café",
+          "porcion": "240 mL",
+          "seccion": "Café",
+          "precio": 35,
+          "opciones": [{ "nombre": "Bebida", "valores": ["Café de olla", "Agua para café"] }]
+        },
+        {
+          "id": "be-cafe-americano",
+          "nombre": "Café americano",
+          "porcion": "240 mL",
+          "seccion": "Café",
+          "precio": 40
+        },
+        {
+          "id": "be-cafe-expresso",
+          "nombre": "Café expresso",
+          "porcion": "60 mL",
+          "seccion": "Café",
+          "precio": 40
+        },
+        {
+          "id": "be-carajillo",
+          "nombre": "Carajillo",
+          "descripcion": "Licor 43 (60 mL) y café expreso (60 mL).",
+          "seccion": "Bebidas preparadas",
+          "precio": 130
+        },
+        {
+          "id": "be-margarita",
+          "nombre": "Margarita",
+          "porcion": "240 mL",
+          "seccion": "Bebidas preparadas",
+          "precio": 100
+        },
+        {
+          "id": "be-mojito",
+          "nombre": "Mojito",
+          "porcion": "450 mL",
+          "seccion": "Bebidas preparadas",
+          "precio": 100
+        },
+        {
+          "id": "be-pina-colada",
+          "nombre": "Piña colada",
+          "porcion": "450 mL",
+          "seccion": "Bebidas preparadas",
+          "precio": 130
+        },
+        {
+          "id": "be-pinada",
+          "nombre": "Piñada",
+          "porcion": "450 mL",
+          "seccion": "Bebidas preparadas",
+          "precio": 85
+        },
+        {
+          "id": "be-sangria",
+          "nombre": "Sangría",
+          "porcion": "450 mL",
+          "seccion": "Bebidas preparadas",
+          "precio": 70
+        },
+        {
+          "id": "be-clericot",
+          "nombre": "Clericot",
+          "porcion": "450 mL",
+          "seccion": "Bebidas preparadas",
+          "precio": 85
+        },
+        {
+          "id": "be-clementina",
+          "nombre": "Clementina",
+          "porcion": "450 mL",
+          "seccion": "Bebidas preparadas",
+          "precio": 130
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "nombre": "Postres",
+      "items": [
+        {
+          "id": "po-flan-napolitano",
+          "nombre": "Flan napolitano",
+          "porcion": "100 g",
+          "precio": 45
+        },
+        {
+          "id": "po-flan-queso",
+          "nombre": "Flan de queso",
+          "porcion": "135 g",
+          "precio": 50
+        },
+        {
+          "id": "po-pay-guayaba",
+          "nombre": "Pay de guayaba Gloria",
+          "porcion": "150 g",
+          "precio": 95
+        },
+        {
+          "id": "po-capirotada",
+          "nombre": "Capirotada",
+          "porcion": "200 g",
+          "precio": 90,
+          "temporada": true
+        },
+        {
+          "id": "po-platano-frito-asado",
+          "nombre": "Plátano frito o asado",
+          "porcion": "1 pza",
+          "precio": 55,
+          "opciones": [{ "nombre": "Preparación", "valores": ["Frito", "Asado"] }]
+        },
+        {
+          "id": "po-platano-flameado",
+          "nombre": "Plátano flameado",
+          "porcion": "1 pza",
+          "precio": 98
+        },
+        {
+          "id": "po-jericalla",
+          "nombre": "Jericalla",
+          "porcion": "100 g",
+          "precio": 45
+        },
+        {
+          "id": "po-helado-bellagio",
+          "nombre": "Helado Bellagio",
+          "precio": 90
+        },
+        {
+          "id": "po-paletas-villa",
+          "nombre": "Paletas de la Villa",
+          "precio": 50,
+          "opciones": [
+            {
+              "nombre": "Paleta",
+              "valores": ["Agua", "Leche", "Esquimal"],
+              "extra": { "Leche": 5, "Esquimal": 13 }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

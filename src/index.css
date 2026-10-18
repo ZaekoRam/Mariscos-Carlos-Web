@@ -1,0 +1,304 @@
+@import 'tailwindcss';
+
+/* Tipografías alojadas en el propio sitio (antes Google Fonts, que bloqueaba el primer pintado).
+   Sólo el subconjunto latino: incluye acentos y ñ. Fuentes variables: un archivo cubre varios pesos. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('/fonts/fraunces.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/fraunces-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/inter.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500 600;
+  font-display: swap;
+  src: url('/fonts/oswald.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* Tipografía estilo celular Nokia (para los mensajes del teléfono del hero).
+   Si no carga, --font-nokia cae a ui-monospace. */
+@font-face {
+  font-family: 'Nokia Cellphone FC Small';
+  src:
+    local('Nokia Cellphone FC Small'),
+    local('Nokia Cellphone FC'),
+    url('https://fonts.cdnfonts.com/s/7417/nokiafc22.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@theme {
+  --color-sand: #f4e9d8;
+  --color-foam: #fbf6ec;
+  --color-ocean: #1c7c9c;
+  --color-deep: #13324a;
+  --color-sunset: #e8552b;
+  --color-gold: #f2b134;
+  --color-ink: #1b1b1b;
+
+  /* Variantes con contraste AA para texto de tamaño normal:
+     - sunset-deep: fondo de botones con texto blanco (5.0:1).
+     - ocean-deep: texto azul sobre arena/espuma (≥ 5.4:1). */
+  --color-sunset-deep: #c4441e;
+  --color-sunset-darker: #a9391a;
+  --color-ocean-deep: #16657f;
+
+  --font-display: 'Fraunces', serif;
+  --font-sans: 'Inter', sans-serif;
+  /* Letra condensada de los listones del menú impreso. */
+  --font-banner: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-nokia: 'Nokia Cellphone FC Small', 'Nokia Cellphone FC', ui-monospace, monospace;
+
+  /* Paleta cinematográfica de la landing: noche del Pacífico y concha. */
+  --color-night: #0a1b28;
+  --color-tide: #0f2a3d;
+  --color-shell: #efe2cc;
+
+  --ease-coast: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-wave: wave-drift 12s linear infinite;
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-marquee-slow: marquee 70s linear infinite;
+  --animate-spin-slow: spin 24s linear infinite;
+  --animate-scroll-cue: scroll-cue 2.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+
+  @keyframes wave-drift {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  @keyframes scroll-cue {
+    0% {
+      transform: scaleY(0);
+      transform-origin: top;
+    }
+    45% {
+      transform: scaleY(1);
+      transform-origin: top;
+    }
+    55% {
+      transform: scaleY(1);
+      transform-origin: bottom;
+    }
+    100% {
+      transform: scaleY(0);
+      transform-origin: bottom;
+    }
+  }
+}
+
+/* Mantel a cuadros (como el de las mesas del restaurante). */
+@utility tablecloth {
+  background-color: #fbf3e2;
+  background-image:
+    repeating-linear-gradient(90deg, rgb(242 177 52 / 0.42) 0 36px, transparent 36px 72px),
+    repeating-linear-gradient(0deg, rgb(232 85 43 / 0.22) 0 36px, transparent 36px 72px);
+}
+
+/* Papel del menú impreso. */
+@utility menu-paper {
+  background-color: #fffdf8;
+  background-image: radial-gradient(120% 90% at 50% 0%, #ffffff, #fbf6ec);
+}
+
+/* Texto con contorno (marquesina de platillos). */
+@utility text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px currentColor;
+}
+
+/* Grano de película sobre los videos. */
+@utility film-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+
+@utility font-display {
+  font-family: 'Fraunces', serif;
+}
+
+/* Contenedor de desplazamiento horizontal sin barra visible (pestañas del menú). */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+    /* Sin Lenis (celular): los enlaces #ancla dejan libre el alto del encabezado fijo. */
+    scroll-padding-top: 5.5rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Lenis (desplazamiento suave) controla el scroll: sin scroll-behavior nativo mientras está activo. */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  html.lenis {
+    scroll-behavior: auto;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100svh;
+    font-family: var(--font-sans);
+    background-color: var(--color-foam);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  #root {
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+  }
+
+  /* Anillo de foco visible en todo elemento interactivo.
+     El naranja atardecer tiene ≥ 3:1 sobre arena, espuma y azul profundo. */
+  :where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex='-1'])):focus-visible {
+    outline: 3px solid var(--color-sunset);
+    outline-offset: 2px;
+  }
+
+  /* Elementos enfocados por código (encabezados, <main> tras "Saltar al contenido"): sin anillo. */
+  :where([tabindex='-1']):focus {
+    outline: none;
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--color-gold) 55%, transparent);
+    color: var(--color-deep);
+  }
+
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']) {
+    cursor: pointer;
+  }
+}
+
+/* Textura de arena/papel al 4 % sobre todo el sitio. */
+.noise-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.07 0 0 0 0 0.2 0 0 0 0 0.29 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Impresión de tarjetas QR: sólo se imprime lo marcado con .print-area.
+   Todo lo demás sale del flujo (display: none) para que no queden páginas en blanco,
+   y la sección #qr deja de recortar su contenido. */
+@media print {
+  @page {
+    margin: 12mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  body:has(#qr .print-area) > *:not(#root),
+  body:has(#qr .print-area) #root > *:not(main),
+  body:has(#qr .print-area) main > *:not(#qr),
+  body:has(#qr .print-area) #qr > *:not(:has(.print-area)),
+  body:has(#qr .print-area) #qr > * > *:not(.print-area) {
+    display: none !important;
+  }
+
+  #qr {
+    overflow: visible !important;
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  #qr > * {
+    max-width: none !important;
+  }
+
+  .print-area {
+    margin: 0 !important;
+  }
+
+  /* El grid usa whileInView: si no llegó a animarse, se fuerza visible al imprimir. */
+  .print-area > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .noise-overlay {
+    display: none;
+  }
+}
