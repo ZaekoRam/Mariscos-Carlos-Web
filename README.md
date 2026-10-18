@@ -1,63 +1,100 @@
-# Mariscos Carlos — landing + demo de pedidos
+<div align="center">
 
-Landing page and demo ordering system for **Mariscos Carlos** (Manzanillo, Colima). Built with React 19, Vite 8, Tailwind CSS v4, motion (`motion/react`), react-router and qrcode.react. All visible copy is Spanish (México).
+<img src="docs/portada.webp" alt="Portada de Mariscos Carlos con video del mar al atardecer" width="100%">
 
-```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # typecheck + production build in dist/
-npm run preview  # serve the build
-```
+<h1>Mariscos Carlos</h1>
 
-## Routes
+<p><b>Mariscos frescos. Mesa lista.</b><br>
+Sitio y sistema de pedidos para una marisquería de Manzanillo, Colima.</p>
 
-| Route | What it is |
-| --- | --- |
-| `/` | Landing, in order of importance: hero with the three main actions, menu book, favorites, order (live ticket + WhatsApp preview), reservations, then the place (video band, about, reviews, visit us). `?lang=en` forces English. |
-| `/?mesa=N` | Same landing for table N (1–12): the cart is preset to that table and a status pill shows that table's orders |
-| `/mesero` | Demo: pick a table, add dishes, "Enviar a cocina" |
-| `/cocina` | Demo: kanban Pendiente → En preparación → Listo |
-| `/pedido/:id` | Customer status page with a live progress bar |
-| `/qr` | Staff tool: one QR per table, download PNG/SVG or print the cards |
+<a href="https://lavender-penguin-141013.hostingersite.com"><img src="https://img.shields.io/badge/ver_demo-en_vivo-C4441E?style=for-the-badge&labelColor=0E1E2B" alt="Ver demo en vivo"></a>
 
-The demo screens sync live between tabs of the **same browser** with `BroadcastChannel("mariscos-carlos")` plus `localStorage`. Every storage access goes through `src/lib/storage.ts` (try/catch), so the demo still works in memory when storage is blocked. For a client demo, open `/mesero`, `/cocina` and `/pedido/<id>` side by side, or use "Cargar pedidos de ejemplo".
+<br><br>
 
-## What to edit before going live
+<img src="https://img.shields.io/badge/React_19-0E1E2B?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19">
+<img src="https://img.shields.io/badge/TypeScript-0E1E2B?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
+<img src="https://img.shields.io/badge/Vite-0E1E2B?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite">
+<img src="https://img.shields.io/badge/Tailwind_CSS-0E1E2B?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/Motion-0E1E2B?style=flat-square&logo=framer&logoColor=white" alt="Motion">
+<img src="https://img.shields.io/badge/ES_·_EN-0E1E2B?style=flat-square" alt="Español e inglés">
 
-| File | Purpose |
-| --- | --- |
-| `src/config/payment.ts` | Bank, CLABE and account holder. While empty, the page shows "Pendiente de confirmar" and copy buttons stay disabled. |
-| `src/config/announcement.ts` | "Aviso del día" banner (`active`, `id`, `text`). Change `id` for each new notice. It currently shows an **example** notice; set `active: false` to hide it. |
-| `src/config/site.ts` | Business facts (phones, hours, rating, socials) and `publicUrl`, the final domain used in the table QR codes. Set it before printing. |
-| `src/data/menu.json` | Menu: 10 categories, 149 items. |
-| `src/landing/media.ts` | Videos and photos used by the landing (see "Media" below). |
-| `src/assets/logo-marlin-*.webp`, `logo.svg` | Marlin badge cut out of the official logo ("Los Más Frescos · Desde 2004"). |
-| `src/data/menu.en.json` | English translation of the menu (names, descriptions, options, notes). |
-| `src/landing/ReviewsBand.tsx` | 3 review cards marked "Ejemplo — reemplazar con reseñas reales". |
+</div>
 
-### About `menu.json`
+<br>
 
-No `menu.json` was attached to the brief, so it was transcribed from the 7 photos of the printed menu (WhatsApp images, 14 Oct 2026). Handwritten price stickers override printed prices. Per-kilo items (`por_kilo`, `precio_texto`) are excluded from the estimated total and flagged "peso por confirmar" in the WhatsApp message. The clock icon on the printed menu is stored as `preparacion_larga` and shown as "tarda un poco más en prepararse"; confirm that meaning with the restaurant.
+> Una propuesta para que el restaurante tenga su carta, sus pedidos y sus reservaciones en un solo lugar: el cliente pide desde la mesa o por WhatsApp, y la cocina lo ve al instante.
 
-## Languages (ES / EN)
+<br>
 
-- The public pages (landing, cart, payment details, order status) have an ES/EN toggle in the header, the mobile menu and the footer. The choice is remembered. Without a saved choice, a browser set to English opens the site in English.
-- UI text is written inline as `t('Español', 'English')` (`src/i18n/lang.tsx`). Menu text comes from `src/data/menu.en.json` via `src/i18n/menuText.ts`.
-- WhatsApp messages to the restaurant (orders, reservations, payment) are **always in Spanish** so the staff can read them.
-- Staff screens (`/mesero`, `/cocina`, `/qr`) are always in Spanish.
+## ✦ Lo que hace
 
-## Media
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>Menú que se hojea</b><br><sub>Los 149 platillos de la carta real, en páginas que se abren como libro, con buscador.</sub></td>
+    <td width="33%" valign="top"><b>Comanda por WhatsApp</b><br><sub>El carrito arma el pedido y le llega al restaurante listo para leer.</sub></td>
+    <td width="33%" valign="top"><b>Reservaciones</b><br><sub>Día, hora y número de personas en un minuto.</sub></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Pedido desde la mesa</b><br><sub>Cada mesa tiene su QR: el pedido llega con su número.</sub></td>
+    <td valign="top"><b>Mesero y cocina</b><br><sub>Un tablero en vivo: pendiente, en preparación, listo.</sub></td>
+    <td valign="top"><b>Español e inglés</b><br><sub>Con un botón, para los turistas.</sub></td>
+  </tr>
+</table>
 
-- **Real photos** (`public/media/real/`): facade, aguachile, breaded shrimp and shrimp cocktail, cropped from the restaurant's own Instagram posts to remove the text overlays. They're 1080 px originals; replace them with high-resolution photos when available.
-- **Illustrative photos** (Unsplash, free for commercial use, no attribution required): used for dishes without a real photo. Each one is marked "Foto ilustrativa" on the page.
-- **Videos** (Mixkit, free for commercial use, no attribution required): beach at golden hour (hero), waves on the sand, sunset over the sea, palms at sunset. They're loaded from Mixkit's CDN. For production, download the 720p files into `public/media/` and update the paths in `src/landing/media.ts`.
-- Videos only play while they're on screen and never play under `prefers-reduced-motion`.
+<br>
 
-## Notes
+## ✦ La carta, como libro
 
-- **Effects:** Lenis smooth scrolling, video parallax that also follows the cursor, a menu book whose pages open with a zoom and can be flipped (arrows, keyboard or swipe), a favorites list where the dish photo follows the cursor, a giant MANZANILLO filled with the wave video that zooms into a full-screen video, words that light up as you scroll, animated counters, a dish marquee that tilts with scroll speed, and an intro curtain (once per session). All of them turn off with `prefers-reduced-motion`.
-- **Business facts** come from `src/config/site.ts`. "Desde 2004" and "Los más frescos" come from the official logo.
-- **Open/closed status** is computed in `America/Mexico_City` (`src/lib/hours.ts`), independent of the visitor's device time zone.
-- **Contrast:** white text on `--color-sunset` (#E8552B) is 3.6:1, which fails WCAG AA for normal text. Buttons with white text therefore use `--color-sunset-deep` (#C4441E, 5:1). The original sunset color is kept for accents.
-- **Reduced motion:** with `prefers-reduced-motion`, parallax, the floating phone, the marquee, smooth scrolling and video autoplay stop, and the typing animation shows full messages.
-- **SPA hosting:** routes like `/cocina` need a fallback to `index.html`. On Netlify use `/* /index.html 200`; on Vercel the default rewrites already do this.
+<img src="docs/menu-libro.webp" alt="El menú se abre como libro y pasa de página" width="100%">
+
+<br>
+
+## ✦ Pantallas
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screens/especialidades.webp" alt="Lo que más se pide"><p align="center"><sub>Lo que más se pide</sub></p></td>
+    <td width="50%"><img src="docs/screens/menu.webp" alt="La carta por páginas"><p align="center"><sub>La carta por páginas</sub></p></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screens/pedir.webp" alt="Comanda directo a WhatsApp"><p align="center"><sub>Tu comanda, directo a WhatsApp</sub></p></td>
+    <td><img src="docs/screens/reservar.webp" alt="Aparta tu mesa"><p align="center"><sub>Aparta tu mesa</sub></p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/screens/visitanos.webp" alt="Cómo llegar"><p align="center"><sub>Te esperamos en Manzanillo</sub></p></td>
+  </tr>
+</table>
+
+<br>
+
+## ✦ En el celular
+
+<p align="center">
+  <img src="docs/screens/cel-portada.webp" alt="Portada en el celular" width="24%">
+  <img src="docs/screens/cel-favoritos.webp" alt="Favoritos en el celular" width="24%">
+  <img src="docs/screens/cel-menu.webp" alt="Menú en el celular" width="24%">
+  <img src="docs/screens/cel-comanda.webp" alt="Comanda en el celular" width="24%">
+</p>
+
+<br>
+
+## ✦ Para el personal
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screens/mesero.webp" alt="Pantalla del mesero"><p align="center"><sub>El mesero toma la orden y la manda a cocina</sub></p></td>
+    <td width="50%"><img src="docs/screens/cocina.webp" alt="Tablero de cocina"><p align="center"><sub>La cocina la ve al instante</sub></p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/screens/qr.webp" alt="Códigos QR por mesa"><p align="center"><sub>Un código QR por mesa, listo para imprimir</sub></p></td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+<sub>Diseñado y programado por <a href="https://carloramirez.dev"><b>Carlo Ramírez</b></a> · Manzanillo, Colima · 2026</sub><br>
+<sub>Fotos ilustrativas de Unsplash y videos de Mixkit.</sub>
+</div>
